@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Lski.RandomString</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Lee Cooper</Authors>
+    <Description>Class for creating Random Strings</Description>
+    <Copyright>Copyright 2020</Copyright>
+    <PackageIconUrl>https://www.gravatar.com/avatar/e28af3724cd70eb082bdb84063964ea1</PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags></PackageTags>
+    <RepositoryUrl>https://github.com/lski/Lski.RandomString</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
