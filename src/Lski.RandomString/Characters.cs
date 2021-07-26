@@ -27,7 +27,7 @@ namespace Lski.RandomString
 		/// <summary>
 		/// Basic punctuation {}[]()/\'"`~,;:.<>_-
 		/// </summary>
-		Punctuation = 8,
+		Symbols = 8,
 
 		/// <summary>
 		/// Used to exclude similar looking characters iIlLoO10'`
@@ -47,7 +47,7 @@ namespace Lski.RandomString
 		/// <summary>
 		/// Uppercase, Lowercase, Numbers and symbols
 		/// </summary>
-		All = AlphaNumerics | Punctuation
+		All = AlphaNumerics | Symbols
 	}
 
 	public static class CharactersExtenstions
@@ -69,7 +69,7 @@ namespace Lski.RandomString
 				output += "0123456789";
 			}
 
-			if (characters.HasFlag(Characters.Punctuation)) {
+			if (characters.HasFlag(Characters.Symbols)) {
 				output += @"{}[]()/\'""`~,;:.<>";
 			}
 

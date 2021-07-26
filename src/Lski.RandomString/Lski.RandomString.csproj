@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
@@ -13,7 +13,7 @@
     <Copyright>Copyright 2020</Copyright>
     <PackageIconUrl>https://www.gravatar.com/avatar/e28af3724cd70eb082bdb84063964ea1</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags></PackageTags>
+    <PackageTags>String, Random</PackageTags>
     <RepositoryUrl>https://github.com/lski/Lski.RandomString</RepositoryUrl>
   </PropertyGroup>
 

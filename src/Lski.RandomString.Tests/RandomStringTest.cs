@@ -68,7 +68,7 @@ namespace Lski.RandomString.Tests
 		[Fact]
 		public void Should_Not_Have_Uppercase_Letters()
 		{
-			var r = new RandomString(Characters.Numbers | Characters.Lowercase | Characters.Punctuation);
+			var r = new RandomString(Characters.Numbers | Characters.Lowercase | Characters.Symbols);
 			var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
 
 			var strings = Enumerable.Range(0, 100).Select((index) => r.Generate());
