@@ -7,10 +7,10 @@
 
   <PropertyGroup>
     <PackageId>Lski.RandomString</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Lee Cooper</Authors>
     <Description>Class for creating Random Strings</Description>
-    <Copyright>Copyright 2020</Copyright>
+    <Copyright>Copyright 2021</Copyright>
     <PackageIconUrl>https://www.gravatar.com/avatar/e28af3724cd70eb082bdb84063964ea1</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>String, Random</PackageTags>
